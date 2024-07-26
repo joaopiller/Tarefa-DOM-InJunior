@@ -28,7 +28,7 @@ h1 {
     padding-left: 20px;
 }
 
-form {
+.area_de_texto {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
@@ -67,6 +67,11 @@ textarea {
     margin-bottom: 123px;
 }
 
+.enviar:hover {
+    cursor: pointer;
+    background-color: hsl(234, 100%, 50%);
+}
+
 .msg-e-botao {
     margin: 15px 40px;
     height: 400px;
@@ -85,8 +90,20 @@ textarea {
 .editar {
     margin-left: 633px;
     background-color: hsla(29, 90%, 67%, 1);
+    border-radius: 5px;
+}
+
+.editar:hover {
+    background-color: rgb(255, 196, 0);
+    cursor: pointer;
 }
 
 .excluir {
     background-color: hsla(0, 90%, 67%, 1);
+    border-radius: 5px;
+}
+
+.excluir:hover {
+    background-color: rgb(255, 0, 0);
+    cursor: pointer;
 }
